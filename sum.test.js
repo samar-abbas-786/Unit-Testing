@@ -10,3 +10,10 @@ test("sum is not equal to 0", () => {
     }
   }
 });
+
+test('adding floating numbers',()=>{
+    const n=2.1+2.5;
+    expect(n).toBeCloseTo(4.6);
+    expect(n).toBe(4.6);
+})
+
