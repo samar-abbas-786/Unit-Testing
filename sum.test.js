@@ -16,4 +16,8 @@ test('adding floating numbers',()=>{
     expect(n).toBeCloseTo(4.6);
     expect(n).toBe(4.6);
 })
+test('Match String',()=>{
+    let str="syed";
+    expect(str).toMatch(/ed/);
+})
 
